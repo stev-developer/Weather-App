@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    margin-top: 0%;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/c.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 30%;
+    height: 80%;
+    margin-left: 30%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather p{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 80%; /* Adjust card width for smaller screens */
+        margin-left: 10%; /* Adjust margin for smaller screens */
+    }
+
+    .search input {
+        font-size: 20px; /* Adjust input font size for smaller screens */
+    }
+
+    .weather h1 {
+        font-size: 40px;
+        font-weight: 500; /* Adjust h1 font size for smaller screens */
+    }
+
+    .weather p{
+        font-size: 20px;
+        font-weight: 400; /* Adjust h2 font size for smaller screens */
+    }
+
+    .weather-icon {
+        width: 120px; /* Adjust weather icon size for smaller screens */
+    }
+
+    
+}
+
